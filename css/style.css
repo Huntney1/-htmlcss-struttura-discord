@@ -4,91 +4,103 @@
     box-sizing: border-box;
 }
 
-body{
+body {
+    /*  height: 100vh;
+    width: 100%; */
     background-color: lightgray;
     font-size: 15px;
 }
 
-header, footer{
-    height: 55px;
-    width: 100%;
-    background-color: aquamarine;
+header,
+footer {
+    height: 60px;
+    margin: 0 auto;
+    background-color: rgb(77, 201, 246);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-footer{
-margin-top: 10px;
+footer {
+    margin-top: 3px;
 }
 
-main{
-    height: 750px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-
-.row{
-    height: 29px;
+.row {
     width: 94%;
     background-color: orange;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
-.col-logo{
+.col-logo {
     height: 30px;
     width: 30%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: blue;
+    border-style: dashed;
 }
 
-.col-logo h3{
+.col-logo h3 {
     margin-left: 10px;
-
 }
 
-.col-menu{
+.col-menu {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: red;
-
 }
 
-ul{
+.col-menu ul {
     width: 100%;
     height: 30px;
-    background-color: yellow;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
-    
+    border-style: dashed;
 }
 
-.col-login{
+.col-login {
     height: 30px;
     width: 30%;
     display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    background-color: green;
+    align-items: center;
+    border-style: dashed;
 }
 
-.button{
-margin-right: 10px;
-margin-top: 2px;
-height: 26px;
-width: 100px;
+.col-login .button {
+    margin: 0 auto;
+    height: 26px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.large-container {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bg-pink {
+    background-color: pink;
 }
