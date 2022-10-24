@@ -13,26 +13,30 @@ body {
 
 header,
 footer {
-    height: 60px;
-    margin: 0 auto;
+
     background-color: rgb(77, 201, 246);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 
 }
 
+header {
+    height: 360px;
+    display: flex;
+    justify-content: center;
+}
+
 footer {
+    height: 60px;
+    background-color: rgb(77, 201, 246);
     margin-top: 3px;
 }
 
 .row {
+    margin-top: 20px;
     width: 94%;
+    height: 6%;
     background-color: orange;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-
 }
 
 .col-logo {
@@ -45,7 +49,7 @@ footer {
 }
 
 .col-logo h3 {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .col-menu {
@@ -83,6 +87,29 @@ footer {
     background-color: orange;
 }
 
+.large-container {
+    height: 45%;
+    width: 70%;
+    margin-top: 1px;
+    background-color: blue;
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-pink {
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+
 main {
     height: 100vh;
     width: 100%;
@@ -90,17 +117,4 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.large-container {
-    height: 100px;
-    width: 100%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-
-}
-
-.bg-pink {
-    background-color: pink;
 }
