@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-size: 15px;
+}
+
+header, footer{
+    height: 55px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer{
+margin-top: 10px;
+}
+
+main{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.row{
+    height: 29px;
+    width: 94%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-logo{
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: blue;
+}
+
+.col-logo h3{
+    margin-left: 10px;
+
+}
+
+.col-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+
+}
+
+ul{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.col-login{
+    height: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: green;
+}
+
+.button{
+margin-right: 10px;
+margin-top: 2px;
+height: 26px;
+width: 100px;
+}
