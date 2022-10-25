@@ -1,48 +1,56 @@
+/** regole */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/** colori di background */
-.bg_white{
+
+hr {
     background-color: white;
 }
 
-.bg_grey{
+.padding-vertical-20 {
+    padding: 20px;
+}
+
+.padding-vertical-mix {
+    padding: 20px 35px 20px 35px;
+}
+
+/** colori di background */
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-grey {
     background-color: gray;
 }
+
+
 
 body {
     /*  height: 100vh;
     width: 100%; */
-    background-color: lightgray;
     font-size: 15px;
-}
-
-header,
-footer {
-
-    background-color: rgb(77, 201, 246);
-
+    font-family: 'Whitney', Helvetica, Arial, sans-serif;
 }
 
 header {
-    height: 332px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: rgba(49, 97, 224, 255);
 }
 
 footer {
-    height: 60px;
-    background-color: rgb(77, 201, 246);
-    margin-top: 3px;
+    background-color: black;
 }
 
 .row {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 80%;
-    height: 6%;
+    height: 30%;
     background-color: orange;
     display: flex;
     align-items: center;
@@ -96,33 +104,89 @@ footer {
     background-color: orange;
 }
 
-.large-container {
-    height: 45%;
-    width: 100%;
-    margin-top: 1px;
-    background-color: blue;
-    position: absolute;
-    top: 70px;
-    border-style: dashed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/** main */
+.container-sm {
+    width: 70%;
+    margin: 0 auto;
 }
 
-.bg-pink {
+.row-sm {
+    width: 100%;
+    display: flex;
+}
+
+.col-25 {
+    height: 50px;
+    width: 25%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-25-footer {
+    height: 250px;
+    width: 25%;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.col-30 {
+    background-color: cyan;
+    border: 1px solid white;
+    height: 250px;
+    width: 30%;
+}
+
+.col-40 {
+    height: 300px;
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.col-50 {
+    height: 50px;
     width: 50%;
-    height: 85%;
-    background-color: rgb(253, 155, 171);
-    display: flex;
-    justify-content:center;
-    align-content: center;
+    background-color: orange;
+    border: 1px solid black;
 }
 
-main {
-    height: 100vh;
+.col-60 {
+    height: 300px;
+    width: 60%;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+.col-70 {
+    background-color: burlywood;
+    border: 1px solid white;
+    height: 250px;
+    width: 70%;
+}
+
+.col-100 {
     width: 100%;
-    background-color: black;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 300px;
+    background-color: palevioletred;
+
+}
+
+.column-bar {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border: 1px solid white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.column-bar p {
+    margin-left: 2%;
+}
+
+.column-bar button {
+    margin-right: 2%;
 }
